@@ -515,7 +515,7 @@ void *thread_pop_front_fun_2()
 				
 			}
 			else {
-				*(data_recv+3) = 0x00;
+				*(data_recv+3) = 0x01;
 				*(data_recv+4) = 0x00;
 			}
 			//printf("_________________\n");
